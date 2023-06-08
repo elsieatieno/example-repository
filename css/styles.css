@@ -1,0 +1,28 @@
+#add_1{
+    height: 100vh;
+    background-image: url('../img/museum-of-new-zealand-te-papa-tongarewa-DtGeJNizxHQ-unsplash.jpg');
+    background-size: cover;
+}
+
+.major{
+    height: 100vh;
+    background: green;
+}
+.transform{
+    height: 100vh;
+    background-image: url(../img/photo-1685926650808-aaee59828ab8.avif);
+    background-size: cover;
+}
+.main-header{
+    text-align: center;
+}
+.navigation-bar > ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-bar > ul > li{
+   border: 1px solid red;
+   list-style-type: none;
+   padding: 10px;
+   border-radius: 4px;
+   }
